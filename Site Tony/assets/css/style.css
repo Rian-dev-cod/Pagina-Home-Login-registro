@@ -1,0 +1,143 @@
+/* Estilo Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Estilo do Corpo */
+body {
+    background: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.header .logo {
+    max-width: 250px; /* Ajusta o tamanho da imagem */
+    height: auto;
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+    float: left;
+    width: 300px;
+    height: 137,5px;
+}
+
+
+.header p {
+    font-size: 16px;
+    color: #555; /* Cinza suave */
+    margin-top: 5px;
+}
+
+
+
+/* Container */
+.container {
+    background: #fff; /* Fundo branco */
+    border: 2px solid #000; /* Borda preta */
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Título do formulário */
+.container h2 {
+    color: #000; /* Preto */
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* Formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000; /* Preto */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000; /* Borda preta */
+    border-radius: 5px;
+    background: #fff; /* Fundo branco */
+    font-size: 14px;
+    color: #000; /* Texto preto */
+}
+
+input::placeholder {
+    color: #888; /* Cinza para placeholder */
+}
+
+/* Botão */
+button.btn {
+    width: 100%;
+    padding: 10px;
+    background: #000; /* Preto */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button.btn:hover {
+    background: #444; /* Preto mais suave */
+    transform: scale(1.05); /* Pequeno zoom */
+}
+
+/* Alerta */
+.alert {
+    background-color: #0b4edf; /* Vermelho claro para erro */
+    color: #fff; /* Texto branco */
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    display: none; /* Oculto por padrão */
+}
+
+.alert.show {
+    display: block; /* Mostra o alerta */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    color: #000; /* Preto */
+    font-size: 12px;
+}

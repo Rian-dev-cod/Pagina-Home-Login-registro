@@ -1,0 +1,116 @@
+/* Estilo Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header .logo {
+    max-width: 250px; /* Ajusta o tamanho da imagem */
+    height: auto;
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+    float: left;
+    width: 300px;
+    height: 137,5px;
+}
+.header h1 {
+    color: #000; /* Preto */
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Container do Formulário */
+.container {
+    background: #fff; /* Fundo branco */
+    border: 2px solid #000; /* Borda preta */
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra leve */
+    text-align: center;
+}
+
+/* Formulário */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000; /* Borda preta */
+    border-radius: 5px;
+    background: #f9f9f9; /* Fundo claro */
+    font-size: 14px;
+    color: #000;
+}
+
+input::placeholder {
+    color: #888; /* Placeholder cinza */
+}
+
+/* Botão */
+button.btn {
+    width: 100%;
+    padding: 12px;
+    background: #000; /* Preto */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button.btn:hover {
+    background: #444; /* Preto mais claro */
+    transform: scale(1.05); /* Pequeno zoom */
+}
+
+/* Alerta */
+.alert {
+    background-color: #ff4d4d; /* Vermelho claro para erro */
+    color: #fff; /* Texto branco */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    display: none; /* Oculto por padrão */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #000;
+    font-size: 12px;
+}
